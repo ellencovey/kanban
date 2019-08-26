@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9B1C3A1B230AB74500333715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C3A1A230AB74500333715 /* AppDelegate.swift */; };
-		9B1C3A1D230AB74500333715 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C3A1C230AB74500333715 /* ViewController.swift */; };
 		9B1C3A20230AB74500333715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1C3A1E230AB74500333715 /* Main.storyboard */; };
 		9B1C3A22230AB74700333715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1C3A21230AB74700333715 /* Assets.xcassets */; };
 		9B1C3A25230AB74700333715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1C3A23230AB74700333715 /* LaunchScreen.storyboard */; };
+		9B1C3A2D230AB78E00333715 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C3A2C230AB78E00333715 /* Board.swift */; };
+		9B1C3A2F230ABBD000333715 /* BoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C3A2E230ABBD000333715 /* BoardCollectionViewCell.swift */; };
+		9B1C3A31230ABE2600333715 /* BoardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C3A30230ABE2600333715 /* BoardCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B1C3A17230AB74500333715 /* Kanban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kanban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1C3A1A230AB74500333715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B1C3A1C230AB74500333715 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B1C3A1F230AB74500333715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B1C3A21230AB74700333715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B1C3A24230AB74700333715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B1C3A26230AB74700333715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1C3A2C230AB78E00333715 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		9B1C3A2E230ABBD000333715 /* BoardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCollectionViewCell.swift; sourceTree = "<group>"; };
+		9B1C3A30230ABE2600333715 /* BoardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				9B1C3A1A230AB74500333715 /* AppDelegate.swift */,
-				9B1C3A1C230AB74500333715 /* ViewController.swift */,
+				9B1C3A30230ABE2600333715 /* BoardCollectionViewController.swift */,
+				9B1C3A2E230ABBD000333715 /* BoardCollectionViewCell.swift */,
+				9B1C3A2C230AB78E00333715 /* Board.swift */,
 				9B1C3A1E230AB74500333715 /* Main.storyboard */,
 				9B1C3A21230AB74700333715 /* Assets.xcassets */,
 				9B1C3A23230AB74700333715 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B1C3A1D230AB74500333715 /* ViewController.swift in Sources */,
+				9B1C3A2D230AB78E00333715 /* Board.swift in Sources */,
+				9B1C3A31230ABE2600333715 /* BoardCollectionViewController.swift in Sources */,
 				9B1C3A1B230AB74500333715 /* AppDelegate.swift in Sources */,
+				9B1C3A2F230ABBD000333715 /* BoardCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
